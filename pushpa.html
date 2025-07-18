@@ -1,0 +1,1732 @@
+<html>
+
+<head>
+    <title>Theaters</title>
+    <link rel="stylesheet" href="mix.css">
+    <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="parent">
+
+        <div class="headerbar">
+
+            <img class="cinemaxlogo" src="./CineMaxLogo.png" height="80px" width="100px">
+
+            <div class="options">
+
+                <a href="Home_Page.html"><div class="home">Home</div></a>
+                <a href="Present_Movies_List.html"><div class="movies">Movies</div></a>
+                <a href="Actors_Page.html"><div class="actors">Actors</div></a>
+                <a href="sports.html"><div class="sports">Sports</div></a>
+
+            </div>
+            <!-- <div class="selectbar">
+                <select class="selectbar1">
+                    <option value="none" selected disabled hidden>
+                        Choose your location
+                    </option>
+                    <option class="opt">Kakinada</option>
+                    <option class="opt">Rajahmundry</option>
+                    <option class="opt">Vizag</option>
+                    <option class="opt">Hyderabad</option>
+
+                </select>
+            </div> -->
+            <!-- <div class="location1">
+                <button onclick="changeLocation('kakinada')">Kakinada</button>
+                <button onclick="changeLocation('rajahmundry')">Rajahmundry</button>
+            </div> -->
+            <div class="location1">
+                <div class="select_yout_location">Select your location&nbsp;&nbsp;&nbsp;&nbsp;<i
+                        class="fa-solid fa-angle-down fa-xs"></i></div>
+                <div class="places">
+                    <div class="place" onclick="changeLocation('kakinada')">Kakinada</div>
+                    <div class="place" onclick="changeLocation('rajahmundry')">Rajahmundry</div>
+                    <div class="place" onclick="changeLocation('vizag')">Vizag</div>
+                    <div class="place" onclick="changeLocation('hyderabad')">Hyderabad</div>
+                    <!-- <div class="c" onclick="cl()">Close</div> -->
+                </div>
+            </div>
+
+            <button class="optbutton" onclick="fun1()"><i class="fa-solid fa-bars"></i></button>
+
+            <div class="optheader">
+
+                <div class="options1">
+
+                    <div class="home1">Home</div>
+                    <div class="movies1">Movies</div>
+                    <div class="actors1">Actors</div>
+                    <div class="sports1">Sports</div>
+                    <div class="close" onclick="fun2()">Close</div>
+
+                </div>
+
+            </div>
+
+            <!-- <div class="account">
+        
+                <div class="signup">SignUp</div>
+                <div class="login">Login</div>
+        
+            </div> -->
+
+        </div>
+    </div>
+    <div id="mve">
+        <div class="parent1">
+            <div class="child">
+                <div class="child1">
+                    <div class="day">Sun</div>
+                    <div class="date">28</div>
+                    <div class="month">JUL</div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <div class="day">Mon</div>
+                    <div class="date">29</div>
+                    <div class="month">JUL</div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <div class="day">Tues</div>
+                    <div class="date">30</div>
+                    <div class="month">JUL</div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <div class="day">Wed</div>
+                    <div class="date">31</div>
+                    <div class="month">JUL</div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <div class="day">Thurs</div>
+                    <div class="date">1</div>
+                    <div class="month">AUG</div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <div class="day">Fri</div>
+                    <div class="date">2</div>
+                    <div class="month">AUG</div>
+                </div>
+            </div>
+            <div class="child">
+                <div class="child1">
+                    <div class="day">Sat</div>
+                    <div class="date">3</div>
+                    <div class="month">AUG</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="theaters">
+        <div class="theaters_mid">
+            <div class="availables">
+                <div class="twodiv">
+                    <div class="available1">
+                        <div class="dot1"></div>
+                        <div class="avai">&nbsp;&nbsp;Available</div>
+                    </div>
+                    <div class="available2">
+                        <div class="dot2"></div>
+                        <div class="avai">&nbsp;&nbsp;Fast Filling</div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr2">
+            <div class="theaters1">
+                <div class="theatre_title">
+                    <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                    <div class="theater11">Padmapriya 2K Dolby Atmos: Kakinada</div>
+                    <div class="info">INFO</div>
+                </div>
+                <div class="theatre_time">
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">11:15 AM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">11:15 AM</div> -->
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">02:45 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">02:45 PM</div> -->
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">06:15 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diploma</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">06:15 PM</div> -->
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">09:45 PM</div>
+                        </a>
+                        <div class="hover-overlay1">
+                            <div class="detailstwo">
+                                <div class="details1">
+                                    <div class="cost">Rs.145.00</div>
+                                    <div class="avai1">First Class</div>
+                                    <div class="description">Available</div>
+                                </div>
+                                <div class="details2">
+                                    <div class="cost">Rs.70.00</div>
+                                    <div class="avai1">Second Class</div>
+                                    <div class="description">Available</div>
+                                </div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">09:45 PM</div> -->
+                </div>
+                <!-- <div class="cancel">
+                    <div class="dot3"></div>
+                    <div class="cancel1">&nbsp;&nbsp;Cancellation Available</div>
+                </div> -->
+            </div>
+            <hr>
+
+            <div class="theaters1">
+                <div class="theatre_title">
+                    <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                    <div class="theater11">Surya Cinemax: Kakinada</div>
+                    <div class="info">INFO</div>
+                </div>
+                <div class="theatre_time">
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">11:15 AM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">11:15 AM</div> -->
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">02:45 PM</div>
+                        </a>
+                        <!-- <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145</div>
+                                <div class="avai1"></div>
+                                <div class="descritption"></div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div> -->
+                        <div class="hover-overlay1">
+                            <div class="detailstwo">
+                                <div class="details1">
+                                    <div class="cost">Rs.145.00</div>
+                                    <div class="avai1">First Class</div>
+                                    <div class="description">Available</div>
+                                </div>
+                                <div class="details2">
+                                    <div class="cost">Rs.70.00</div>
+                                    <div class="avai1">Second Class</div>
+                                    <div class="description">Available</div>
+                                </div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">02:45 PM</div> -->
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">06:15 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">06:15 PM</div> -->
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">09:45 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">09:45 PM</div> -->
+                </div>
+                <!-- <div class="cancel">
+                    <div class="dot3"></div>
+                    <div class="cancel1">&nbsp;&nbsp;Cancellation Available</div>
+                </div> -->
+            </div>
+            <hr>
+            <div class="theaters1">
+                <div class="theatre_title">
+                    <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                    <div class="theater11">Anand Multiplex: Kakinada</div>
+                    <div class="info">INFO</div>
+                </div>
+                <div class="theatre_time">
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">11:15 AM</div>
+                        </a>
+                        <!-- <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145</div>
+                                <div class="avai1"></div>
+                                <div class="descritption"></div>
+                            </div> -->
+                        <div class="hover-overlay1">
+                            <div class="detailstwo">
+                                <div class="details1">
+                                    <div class="cost">Rs.145.00</div>
+                                    <div class="avai1">First Class</div>
+                                    <div class="description">Available</div>
+                                </div>
+                                <div class="details2">
+                                    <div class="cost">Rs.70.00</div>
+                                    <div class="avai1">Second Class</div>
+                                    <div class="description">Available</div>
+                                </div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">02:45 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">06:15 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">09:45 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145.00</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">11:15 AM</div>
+                    <div class="time1">02:45 PM</div>
+                    <div class="time1">06:15 PM</div>
+                    <div class="time1">09:45 PM</div> -->
+                </div>
+                <!-- <div class="cancel">
+                    <div class="dot3"></div>
+                    <div class="cancel1">&nbsp;&nbsp;Cancellation Available</div>
+                </div> -->
+            </div>
+
+            <hr>
+            <div class="theaters1">
+                <div class="theatre_title">
+                    <div class="heart"><i class="fa-regular fa-heart"></i></div>
+                    <div class="theater11">Devi Multiplex: Kakinada</div>
+                    <div class="info">INFO</div>
+                </div>
+                <div class="theatre_time">
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">11:15 AM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">02:45 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">06:15 PM</div>
+                        </a>
+                        <div class="hover-overlay1">
+                            <div class="detailstwo">
+                                <div class="details1">
+                                    <div class="cost">Rs.145</div>
+                                    <div class="avai1">First Class</div>
+                                    <div class="description">Available</div>
+                                </div>
+                                <div class="details2">
+                                    <div class="cost">Rs.145</div>
+                                    <div class="avai1">Second Class</div>
+                                    <div class="description">Available</div>
+                                </div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <div class="time-container">
+                        <a>
+                            <div class="time1">09:45 PM</div>
+                        </a>
+                        <div class="hover-overlay">
+                            <div class="details">
+                                <div class="cost">Rs.145</div>
+                                <div class="avai1">Diplomat</div>
+                                <div class="description">Available</div>
+                            </div>
+                            <div class="v"><i class="fa-solid fa-caret-down fa-1x" style="color: #ff0000;"></i></div>
+                        </div>
+                    </div>
+                    <!-- <div class="time1">11:15 AM</div>
+                    <div class="time1">02:45 PM</div>
+                    <div class="time1">06:15 PM</div>
+                    <div class="time1">09:45 PM</div> -->
+                </div>
+                <!-- <div class="cancel">
+                    <div class="dot3"></div>
+                    <div class="cancel1">&nbsp;&nbsp;Cancellation Available</div>
+                </div> -->
+            </div>
+            <a href="#ticket">
+                <button class="pay" onclick="fun4()">Book your seats</button></a>
+        </div>
+    </div>
+
+
+    <div id="ticket">
+        <div class="parents">
+            <div class="ticket1">
+                <div class="parents1">
+                    <div class="backbutton2">
+                        <a href="#mve"><button class="gpay_btn" onclick="fun21()"><i class="fa-solid fa-arrow-left"
+                            id="gpay_i1"></i></button></a>
+                    </div>
+                    <label>Enter no of seats&nbsp;&nbsp;</label>
+                    <div class="childs1">   
+                        <input type="text" name="Enter no of seats" id="seatNumber" />
+                    </div>
+                    <div class="select">
+                        <div class="set1">
+                            Select
+                        </div>
+                        <div class="set2">
+                            <div class="set3"></div>
+                        </div>
+                    </div>
+                    <div class="available">
+                        <div class="av1">Available</div>
+                        <div class="av2">
+                            <div class="av3"></div>
+                        </div>
+                    </div>
+                    <div class="solid">
+                        <div class="so1">Solid</div>
+                        <div class="so2">
+                            <div class="so3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parent2">
+                    <div class="platinum">RS. 250 PLATINUM </div>
+                </div>
+                <div class="parent3">
+                    <div class="A">
+                        <div class="font">A</div>
+                    </div>
+                    <div class="A1">
+                        <div class="square">1</div>
+                        <div class="square">2</div>
+                        <div class="green">3</div>
+                        <div class="square">4</div>
+                        <div class="square">5</div>
+                        <div class="square">6</div>
+                        <div class="square">7</div>
+                        <div class="square">9</div>
+                        <div class="square">10</div>
+                        <div class="green">11</div>
+                        <div class="square">12</div>
+                        <div class="square">13</div>
+                        <div class="square">14</div>
+                        <div class="green">15</div>
+                        <div class="square">16</div>
+                        <div class="square">17</div>
+                        <div class="square">18</div>
+                        <div class="green">19</div>
+                        <div class="square">20</div>
+
+                    </div>
+
+                </div>
+                <div class="parent4">
+                    <div class="pla1">RS. 200 GOLD</div>
+                </div>
+                <div class="parent5">
+                    <div class="gold1">
+                        <div class="line1">
+
+                            <div class="letter">B</div>
+                            <div class="letter">C</div>
+                            <div class="letter">D</div>
+                            <div class="letter">E</div>
+                            <div class="letter">F</div>
+                            <div class="letter">G</div>
+                            <div class="letter">H</div>
+                            <!-- <div class="letter"> I</div> -->
+                        </div>
+                        <div class="line2">
+                            <div class="booking1">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="booked">3</div>
+                                <div class="booked">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="booking2">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="booked">5</div>
+                                <div class="booked">6</div>
+                                <div class="booked">7</div>
+                            </div>
+                            <div class="booking3">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="booking4">
+                                <div class="seat1">1</div>
+                                <div class="booked">2</div>
+                                <div class="booked">3</div>
+                                <div class="booked">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="booking5">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="booking6">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="booked">6</div>
+                                <div class="booked">7</div>
+                            </div>
+                            <div class="booking7">
+                                <div class="booked">1</div>
+                                <div class="booked">2</div>
+                                <div class="booked">3</div>
+                                <div class="booked">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gold2">
+                        <div class="g1">
+                            <div class="seat1">8</div>
+                            <div class="booked">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="booked">13</div>
+                            <div class="booked">14</div>
+                            <div class="booked">15</div>
+                            <div class="booked">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+
+                        </div>
+                        <div class="g2">
+                            <div class="booked">8</div>
+                            <div class="booked">9</div>
+                            <div class="booked">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="booked">17</div>
+                            <div class="seat1">18</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="g3">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="booked">16</div>
+                            <div class="booked">17</div>
+                            <div class="booked">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="g4">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="booked">15</div>
+                            <div class="booked">16</div>
+                            <div class="booked">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+
+                        </div>
+                        <div class="g5">
+
+                            <div class="seat1">8</div>
+                            <div class="booked">9</div>
+                            <div class="booked">10</div>
+                            <div class="booked">11</div>
+                            <div class="booked">12</div>
+                            <div class="booked">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+
+                        </div>
+                        <div class="g6">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="booked">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="booked">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="booked">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+
+                        </div>
+                        <div class="g7">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="booked">10</div>
+                            <div class="seat1">11</div>
+                            <div class="booked">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="booked">15</div>
+                            <div class="booked">16</div>
+                            <div class="booked">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="parent6">
+                    <div class="duplex1">
+                        <div class="line3">
+                            <!-- <div class="letters"> H</div> -->
+                            <div class="letters">I</div>
+                            <div class="letters">J</div>
+                            <div class="letters">K</div>
+                            <div class="letters">L</div>
+                            <div class="letters">M</div>
+                            <div class="letters">N</div>
+                            <div class="letters">O</div>
+                        </div>
+                        <div class="line4">
+                            <div class="yellow1">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow2">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="booked">5</div>
+                                <div class="booked">6</div>
+                                <div class="booked">7</div>
+                            </div>
+                            <div class="yellow3">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow4">
+                                <div class="booked">1</div>
+                                <div class="booked">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow5">
+                                <div class="seat1">1</div>
+                                <div class="booked">2</div>
+                                <div class="booked">3</div>
+                                <div class="booked">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow6">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow7">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="booked">4</div>
+                                <div class="booked">5</div>
+                                <div class="booked">6</div>
+                                <div class="booked">7</div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="duplex2">
+                        <div class="s1">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="booked">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                        </div>
+                        <div class="s2">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="booked">11</div>
+                            <div class="booked">12</div>
+                            <div class="booked">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="booked">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                        </div>
+                        <div class="s3">
+                            <div class="seat1">8</div>
+                            <div class="booked">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="booked">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="booked">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="s4">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="booked">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="booked">15</div>
+                            <div class="booked">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="s5">
+                            <div class="booked">8</div>
+                            <div class="booked">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="booked">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="booked">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="s6">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="booked">17</div>
+                            <div class="booked">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="booked">22</div>
+                        </div>
+                        <div class="s7">
+                            <div class="seat1">8</div>
+                            <div class="booked">9</div>
+                            <div class="booked">10</div>
+                            <div class="booked">11</div>
+                            <div class="booked">12</div>
+                            <div class="booked">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="booked">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                            <div class="booked">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                            <div class="seat1">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <!-- <div class="s8"></div> -->
+                    </div>
+                </div>
+                <div class="parent7">
+                    <div class="exe">150 SLIVER</div>
+                </div>
+                <div class="parent8">
+                    <div class="q">
+                        <div class="styling">p</div>
+                    </div>
+                    <div class="q1">
+                        <div class="squ">1</div>
+                        <div class="squ">2</div>
+                        <div class="squ">3</div>
+                        <div class="squ">4</div>
+                        <div class="pink">5</div>
+                        <div class="squ">6</div>
+                        <div class="squ">7</div>
+                        <div class="squ">8</div>
+                        <div class="pink">9</div>
+                        <div class="squ">10</div>
+                        <div class="pink">11</div>
+                        <div class="squ">12</div>
+                        <div class="squ">13</div>
+                        <div class="squ">14</div>
+                        <div class="pink">15</div>
+                        <div class="squ">16</div>
+                        <div class="squ">17</div>
+                        <div class="pink">18</div>
+                        <div class="squ">19</div>
+                        <div class="squ">20</div>
+                    </div>
+                </div>
+                <div class="parent9">
+                    <img src="./Theater Screen.png">
+                </div>
+            </div>
+            <a href="#rrr_main">
+                <div id="paybill">
+                    <div class="paymentbutton" onclick="fun6()">Pay Rs.400</div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div id=payment1>
+        <div class="payment_div">
+            <div class="back_button1">
+                <a href="#ticket"><button class="gpay_btn" onclick="fun19()"><i class="fa-solid fa-arrow-left"
+                                id="gpay_i1"></i></button></a>
+            </div>
+            <div class="payment_head">
+                <div class="payment_down">
+                    <i class="fa-solid fa-angle-down"></i>
+                </div>
+                <div class="payment_options">
+                    Payment options
+                </div>
+            </div>
+            <div class="payment_body">
+                <div class="payment_body1">
+                    <div class="gpay">
+                        <div class="logo1">
+                            <a href="#gpay_main"><input type="radio" name="method" onclick="fun7()"></a>
+                            <img src="./images/gpay_logo.jpg" height="40px" width="70px">
+                            <b class="logo_b1">Google Pay</b>
+                        </div>
+                    </div>
+                    <div class="phonepay">
+                        <div class="logo2">
+                            <a href="#gpay_main2"><input type="radio" name="method" onclick="fun11()"></a>
+                            <img src="./images/paytm_logo.jpg" height="30px" width="80px" class="im1">
+                            <b class="logo_b1">Paytm</b>
+                        </div>
+                    </div>
+                </div>
+                <div class="payment_body1">
+                    <div class="gpay">
+                        <div class="logo1">
+                            <a href="#gpay_main1"><input type="radio" name="method" onclick="fun8()"></a>
+                            <img src="./images/phonepe_logo.jpg" height="41px" width="60px">
+                            <b class="logo_b1">PhonePe</b>
+                        </div>
+                    </div>
+                    <div class="phonepay">
+                        <div class="logo2">
+                            <a href="#gpay_main3"><input type="radio" name="method" onclick="fun13()"></a>
+                            <img src="./images/amazon_pay_logo.jpg" height="30px" width="60px">
+                            <b class="logo_b1">Amazon Pay</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment_body1">
+                <div class="gpay">
+                    <div class="logo1">
+                        <a href="#gpay_main4"><input type="radio" name="method" onclick="fun15()"></a>
+                        <img src="./images/cred_logo.jpg" height="42px" width="50px">
+                        <b class="logo_b1">CRED UPI</b>
+
+                    </div>
+                </div>
+                <div class="phonepay">
+                    <div class="logo2">
+                        <a href="#gpay_main5"><input type="radio" name="method" onclick="fun17()"></a>
+                        <img src="./images/BHIM.jpg" height="50px" width="80px">
+                        <b class="logo_b1">BHIM</b>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!--gpay-->
+    <div id="gpay_main">
+        <div class="gpay1">
+            <div class="gpay_btn_cls">
+                <a href="#payment1"><button class="gpay_btn" onclick="fun20()"><i class="fa-solid fa-arrow-left"
+                            id="gpay_i1"></i></button></a>
+                <b class="gpay_b1">Pay using Google Pay</b>
+            </div>
+            <div class="gpay_cls2">
+                <p>To proceed, please enter the mobile number linked to your Google Pay account</p>
+            </div>
+            <form class="g_pay">
+                <input type="number" placeholder=" Enter mobile number" class="gpay_inp1" id="gpay_i4" required>
+                <div class="gpay_cls3"><input type="checkbox" class="gpay_inp2">QUICKPAY<br>&emsp;&nbsp;Save this
+                    upi to
+                    my
+                    CINEMAX account &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and make faster payments</div>
+                <div>
+                    <a href="#rrr_main">
+                        <button class="gpay_btn2">Make Payment</button>
+                    </a>
+                </div>
+            </form>
+            <div class="gpay_cls4">
+                <p>By clicking "Make Payment" you agree to the terms and conditions</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- phone pay -->
+    <div id="gpay_main1">
+        <div class="gpay1">
+            <div class="gpay_btn_cls">
+                <a href="#payment1"><button class="gpay_btn" onclick="fun20()"><i class="fa-solid fa-arrow-left"
+                            id="gpay_i1"></i></button></a>
+                <b class="gpay_b1">Pay using PhonePe</b>
+            </div>
+            <form class="g_pay">
+                <input type="text" placeholder=" Enter UPI Id" class="gpay_inp1" id="gpay_i5" required>
+                <input type="text" placeholder=" Enter Bank Name" class="gpay_inp1" id="gpay_i6" required>
+                <div class="gpay_cls3"><input type="checkbox" class="gpay_inp2">QUICKPAY<br>&emsp;&nbsp;Save this
+                    upi to
+                    my
+                    CINEMAX account &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and make faster payments</div>
+                <div>
+                    <a href="#rrr_main">
+                        <button class="gpay_btn2">Make Payment</button>
+                    </a>
+                </div>
+            </form>
+            <div class="gpay_cls4">
+                <p>By clicking "Make Payment" you agree to the terms and conditions</p>
+            </div>
+        </div>
+    </div>
+
+    <!--paytm-->
+    <div id="gpay_main2">
+        <div class="gpay1">
+            <div class="gpay_btn_cls">
+                <a href="#payment1"><button class="gpay_btn" onclick="fun20()"><i class="fa-solid fa-arrow-left"
+                            id="gpay_i1"></i></button></a>
+                <b class="gpay_b1">Pay using Paytm</b>
+            </div>
+            <form class="g_pay">
+                <input type="text" placeholder=" Enter UPI Id" class="gpay_inp1" id="gpay_i2" required>
+                <input type="text" placeholder=" Enter Bank" class="gpay_inp1" id="gpay_i3" required>
+                <div class="gpay_cls3"><input type="checkbox" class="gpay_inp2">QUICKPAY<br>&emsp;&nbsp;Save this
+                    upi to
+                    my
+                    CINEMAX account &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and make faster payments</div>
+                <div>
+                    <a href="#rrr_main">
+                        <button type="submit" class="gpay_btn2">Make Payment</button>
+                    </a>
+                </div>
+            </form>
+            <div class="gpay_cls4">
+                <p>By clicking "Make Payment" you agree to the terms and conditions</p>
+            </div>
+        </div>
+    </div>
+
+    <!--AMAZON-->
+    <div id="gpay_main3">
+        <div class="gpay1">
+            <div class="gpay_btn_cls">
+                <a href="#payment1"><button class="gpay_btn" onclick="fun20()"><i class="fa-solid fa-arrow-left"
+                            id="gpay_i1"></i></button></a>
+                <b class="gpay_b1">Pay using Amazon Pay</b>
+            </div>
+            <form class="g_pay">
+                <input type="text" placeholder=" Enter UPI Id" class="gpay_inp1" id="gpay_i7" required>
+                <input type="text" placeholder=" Enter Bank Name" class="gpay_inp1" id="gpay_i8" required>
+                <div class="gpay_cls3"><input type="checkbox" class="gpay_inp2">QUICKPAY<br>&emsp;&nbsp;Save this
+                    upi to
+                    my
+                    CINEMAX account &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and make faster payments</div>
+                <div>
+                    <a href="#rrr_main">
+                        <button class="gpay_btn2">Make Payment</button>
+                    </a>
+                </div>
+            </form>
+            <div class="gpay_cls4">
+                <p>By clicking "Make Payment" you agree to the terms and conditions</p>
+            </div>
+        </div>
+    </div>
+
+    <!--cred-->
+    <div id="gpay_main4">
+        <div class="gpay1">
+            <div class="gpay_btn_cls">
+                <a href="#payment1"><button class="gpay_btn" onclick="fun20()"><i class="fa-solid fa-arrow-left"
+                            id="gpay_i1"></i></button></a>
+                <b class="gpay_b1">Pay using CRED UPI</b>
+            </div>
+            <form class="g_pay">
+                <input type="text" placeholder=" Enter UPI Id" class="gpay_inp1" id="gpay_i9" required>
+                <input type="text" placeholder=" Enter Bank Name" class="gpay_inp1" id="gpay_i10" required>
+                <div class="gpay_cls3"><input type="checkbox" class="gpay_inp2">QUICKPAY<br>&emsp;&nbsp;Save this
+                    upi to
+                    my
+                    CINEMAX account &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and make faster payments</div>
+                <div>
+                    <a href="rrr_main">
+                        <button class="gpay_btn2">Make Payment</button>
+                    </a>
+                </div>
+            </form>
+
+            <div class="gpay_cls4">
+                <p>By clicking "Make Payment" you agree to the terms and conditions</p>
+            </div>
+        </div>
+    </div>
+
+    <!--bhim-->
+    <div id="gpay_main5">
+        <div class="gpay1">
+            <div class="gpay_btn_cls">
+                <a href="#payment1"><button class="gpay_btn" onclick="fun20()"><i class="fa-solid fa-arrow-left"
+                            id="gpay_i1"></i></button></a>
+                <b class="gpay_b1">Pay using BHIM</b>
+            </div>
+            <form class="g_pay">
+                <input type="text" placeholder=" Enter UPI Id" class="gpay_inp1" id="gpay_i11" required>
+                <input type="text" placeholder=" Enter Bank" class="gpay_inp1" id="gpay_i12" required>
+                <div class="gpay_cls3"><input type="checkbox" class="gpay_inp2">QUICKPAY<br>&emsp;&nbsp;Save this
+                    upi to my
+                    CINEMAX account &emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and make faster payments</div>
+                <div>
+                    <a href="#rrr_main">
+                        <button class="gpay_btn2">Make Payment</button>
+                    </a>
+                </div>
+            </form>
+            <div class="gpay_cls4">
+                <p>By clicking "Make Payment" you agree to the terms and conditions</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <script src="./UPI_PIN.js"></script> -->
+    <div id="rrr_main">
+        <div class="ticket_booking">
+            <div class="ticket_tick"><img src="./tick.png" height="70px" width="70px"></div>
+            <div class="ticket_msg">&nbsp;&nbsp;&nbsp;Booking Confirmed</div>
+        </div>
+        <div class="rrr">
+            <div class="ticket_rrr">
+                <div class="ticket_rrr_1">
+                    <div class="rrr_ph">
+                        <img src="./images/pushpa.jpg" height="70%" width="85%" class="rrr_ticket_im1">
+                    </div>
+                    <div class="rrr_dt"><br>
+                        <b class="rrr_ticket_b1">pushpa (2D)<br>(U/A)</b>
+                        <div class="rrr_ticket_dt1">
+                            <div class="lang">Telugu, 2D</div><br>
+                            <div class="reflect">
+                                <div class="dayreflect">Sun</div>&nbsp;
+                                <div class="datereflect">28</div>
+                                <div class="monthreflect">Aug</div>&nbsp;
+                                <div class="timereflect">11.15 AM</div>
+                            </div><br>
+                            <div class="location">Surya CineMax, Kakinada</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ticket_rrr_2">
+                    <div class="cir1"></div>
+                    <div class="ticket_rrr_tap">
+                        <center> Tap for support, details & more actions</center>
+                    </div>
+                    <div class="cir2"></div>
+                </div>
+                <div class="ticket_rrr_3">
+                    <div class="ticket_rrr_3a"><img src="./images/qrcode.jpg" height="100px" width="100px"></div>
+                    <div class="ticket_rrr_3b"><br>
+                        <!-- <center>3Ticket(s)
+                            <br>
+                            <h3 class="ticket_rrr_h3">Surya CineMax</h3>
+                            Premium-K2,K3<br>
+                            <h4 class="ticket_rrr_h4">BOOKING ID: 362BE056</h4>
+                        </center> -->
+                        <center>
+                            <br>
+                            <div class="ticket_total">3Ticket(s)</div><br>
+                            <div class="theatrehall">
+                                <h3>Surya CineMax</h3>
+                            </div><br>
+                            <div class="book_id">BOOKING ID: 362BE056</div>
+                        </center>
+                    </div>
+                </div>
+                <div class="ticket_rrr_4">Cancellation not available for this venue</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./jquery.min.js"></script>
+    <script src="./slick-1.8.1/slick/slick.js"></script>
+    <script src="./slick-1.8.1/slick/slick.min.js"></script>
+
+
+    <script>
+        $('.parent1').slick({
+            slidesToShow: 4,
+            slidesToScroll: 1,
+
+            infinite: false,
+            prevArrow: `<button class="mybutton1"><</button>`,
+            nextArrow: `<button class="mybutton2">></button>`,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 4,
+
+                    },
+
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+
+                    },
+                },
+                {
+                    breakpoint: 400,
+                    settings: {
+                        slidesToShow: 2,
+
+                    },
+                },
+                {
+                    breakpoint: 300,
+                    settings: {
+                        slidesToShow: 2,
+
+                    },
+                },
+
+                {
+                    breakpoint: 200,
+                    settings: {
+                        slidesToShow: 1,
+                        centerMode: true,
+                    },
+                },
+            ]
+
+        });
+    </script>
+
+    <script>
+        const selectLocationDiv = document.getElementsByClassName('select_yout_location')[0];
+        const placesListDiv = document.getElementsByClassName('places')[0];
+        const places = document.querySelectorAll('.place');
+
+        selectLocationDiv.addEventListener('click', () => {
+            placesListDiv.style.display = placesListDiv.style.display === 'block' ? 'none' : 'block';
+        });
+
+        places.forEach(place => {
+            place.addEventListener('click', () => {
+                selectLocationDiv.innerText = place.innerText;
+                placesListDiv.style.display = 'none';
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let divs = document.querySelectorAll('.time1');
+            let x;
+
+            let previousDiv = null; 
+
+            divs.forEach(function (div) {
+                div.addEventListener('click', function () {
+                    // this.style.backgroundColor = "#008080 ";
+                    // this.style.color = "white";
+                    if (previousDiv) {
+                        previousDiv.style.backgroundColor = ''; 
+                        previousDiv.style.color = ''; 
+
+                    }
+                    this.style.backgroundColor = "#008080 ";
+                    this.style.color = "white";
+                    previousDiv = this;
+
+
+                    x = this.innerHTML; // Store the content of the clicked div in variable x
+                    console.log(x); // Output the content to the console for verification
+                    document.getElementsByClassName("timereflect")[0].innerHTML = x;
+                });
+            });
+
+
+            divs.forEach(function (clickableDiv) {
+                clickableDiv.addEventListener('click', function () {
+                    let theaterDiv = this.closest('.theaters1');
+                    if (theaterDiv) {
+                        let theaterNameDiv = theaterDiv.querySelector('.theater11');
+                        if (theaterNameDiv) {
+                            let theaterName = theaterNameDiv.innerHTML; // Get the innerHTML of the theater name div
+                            console.log(theaterName); // Output the theater name to the console for verification
+                            document.getElementsByClassName("location")[0].innerHTML = theaterName;
+                            document.getElementsByClassName("theatrehall")[0].innerHTML = theaterName;
+
+
+                        }
+                    }
+                });
+            });
+        });
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            let divs2 = document.querySelectorAll('.child1');
+            let y;
+
+            let previousDiv = null; 
+
+            divs2.forEach(function (div) {
+                div.addEventListener('click', function () {
+                    if (previousDiv) {
+            previousDiv.style.backgroundColor = ''; 
+            previousDiv.style.color = '';
+            
+        }
+
+    
+        this.style.backgroundColor = '#008080';
+        this.style.color='white';
+        previousDiv = this;
+
+
+
+
+                    let dateDiv = this.querySelector('.day');
+                    if (dateDiv) {
+                        y = dateDiv.innerHTML; // Store the content of the child date div in variable x
+                        console.log(y);
+                        document.getElementsByClassName("dayreflect")[0].innerHTML = y;
+
+                    }
+                });
+            });
+
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            let divs2 = document.querySelectorAll('.child1');
+            let y;
+
+            divs2.forEach(function (div) {
+                div.addEventListener('click', function () {
+                    let dateDiv = this.querySelector('.date');
+                    if (dateDiv) {
+                        y = dateDiv.innerHTML; // Store the content of the child date div in variable x
+                        console.log(y);
+                        document.getElementsByClassName("datereflect")[0].innerHTML = y;
+
+                    }
+                });
+            });
+
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            let divs2 = document.querySelectorAll('.child1');
+            let y;
+
+            divs2.forEach(function (div) {
+                div.addEventListener('click', function () {
+                    let dateDiv = this.querySelector('.month');
+                    if (dateDiv) {
+                        y = dateDiv.innerHTML; // Store the content of the child date div in variable x
+                        console.log(y);
+                        document.getElementsByClassName("monthreflect")[0].innerHTML = y;
+                    }
+                });
+            });
+
+        });
+    </script>
+
+
+    <script>
+
+
+        function changeLocation(location) {
+
+
+            const theaters = {
+                kakinada: [
+                    // 'Kakinada Theater 1',
+                    // 'Kakinada Theater 2',
+                    // 'Kakinada Theater 3',
+                    // 'Kakinada Theater 4'
+                    'Padmapriya 2K Dolby Atmos: Kakinada',
+                    'Surya Cinemax: Kakinada',
+                    'Anand Multiplex: Kakinada',
+                    'Devi Multiplex: Kakinada'
+
+                ],
+                rajahmundry: [
+                    // 'Rajahmundry Theater 1',
+                    // 'Rajahmundry Theater 2',
+                    // 'Rajahmundry Theater 3',
+                    // 'Rajahmundry Theater 4'
+
+                    'Apsara Theatre 4K Dolby Atmos: Rajanagaram',
+                    'Murali Krishna Cinema A/C: Dowlaiswaram',
+                    'Fortune Four Cinemas: Rajahmundry',
+                    'INOX: Rajanagaram'
+                ],
+                vizag: [
+                    'Inox: Beach Road',
+                    'Sunkanya Complex: Vizag',
+                    'STLB Cine World: Vizag',
+                    'Sree Kanya Cinemas: Gajuwaka'
+                ],
+                hyderabad: [
+                    'AAA Cinemas: Ameerpet',
+                    'Cinepolis: Hyderabad',
+                    'AMB Cinemas: Gachibowli',
+                     'Asian Cinemart: RC Puram'
+
+                ]
+
+
+
+            };
+
+            document.querySelectorAll('.theatre_title').forEach((theater, index) => {
+                const theaterNameDiv = theater.querySelector('.theater11');
+                theaterNameDiv.innerHTML = theaters[location][index];
+                console.log(theaters[location][index]);
+            });
+        }
+    </script>
+    <script src="theaterpage.js"></script>
+
+    <script src="mix.js"></script>
+
+
+    <script>
+        const seats = document.querySelectorAll('.seat1,.square');
+        const seatNumberInput = document.getElementById('seatNumber');
+        const paymentDiv = document.getElementById('paybill');
+        let selectedSeats = [];
+
+        seats.forEach(seat => {
+            seat.addEventListener('click', () => selectSeat(seat));
+        });
+
+        function selectSeat(seat) {
+            const maxSeats = parseInt(seatNumberInput.value, 10);
+            if (isNaN(maxSeats) || maxSeats <= 0) {
+                alert('Please enter a valid number of seats.');
+                return;
+            }
+
+            if (selectedSeats.includes(seat)) {
+                seat.classList.remove('selected');
+                selectedSeats = selectedSeats.filter(s => s !== seat);
+            } else if (selectedSeats.length < maxSeats) {
+                seat.classList.add('selected');
+                selectedSeats.push(seat);
+            }
+
+            if (selectedSeats.length === maxSeats) {
+                paymentDiv.style.display = 'flex';
+                var x = parseInt(seatNumberInput.value);
+                document.getElementsByClassName("ticket_total")[0].innerHTML = x + " tickets(s)";
+                var y = x * 145;
+                console.log(y);
+                document.getElementsByClassName('paymentbutton')[0].innerHTML = "Pay Rs." + x * 200;
+
+            } else {
+                paymentDiv.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+
+</html>

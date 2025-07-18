@@ -1,0 +1,163 @@
+#rrr_main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ticket_booking{
+    height: 10%;
+    display: flex;
+    margin-left: -12%;
+    justify-content: center;
+    align-items: center;
+}
+.ticket_tick{
+   height: 40px;
+   width: 40px;
+   animation-name: anime1;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+.ticket_msg{
+    font-size: 23px;
+    margin-left: 5px;
+    margin-top: 2%;
+    font-family: sans-serif;
+}
+@keyframes anime1 {
+     0%{
+      transform: scale(1);
+     }
+     50%{
+        transform: scale(1.1);
+     }
+     100%{
+        transform: scale(1.2);
+     }
+}
+.rrr{
+    width:100%;
+    height:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ticket_rrr{
+   height:97%;
+   width:380px ;
+   border: 0.1px solid rgb(240, 239, 239);
+   background-color: white;
+   box-shadow: 0px 0px 1.5px 1.5px rgb(240, 239, 239) ;
+}
+.ticket_rrr_1{
+    height: 40%;
+    width: 100%;
+}
+.rrr_ph{
+    height: 100%;
+    width: 30%;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.rrr_ticket_im1{
+    border-radius: 10px;
+    margin-top: 19%;
+}
+.rrr_ticket_b1{
+    margin-top: 4%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.rrr_ticket_dt1{
+    margin-top: 5%;
+    color:rgb(124, 116, 116) ;
+    font-family: sans-serif;
+}
+.reflect{
+    display: flex;
+}
+.rrr_dt{
+    height: 100%;
+    width: 65%;
+    float: right;
+    margin-left: 2%;
+}
+.ticket_rrr_2{
+    height: 6%;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+.ticket_rrr_tap{
+    height: 6%;
+    width: 79%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cir1{
+    height: 12px;
+    width: 6px;
+    background-color:rgb(233, 231, 231) ;
+    margin-left: -4.5%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.cir2{
+    height: 12px;
+    width: 6px;
+    background-color:rgb(233, 231, 231) ;
+    margin-right: -4.7%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.ticket_rrr_3{
+    height: 33%;
+    width: 100%;
+   margin-top: 1%;
+   font-family: sans-serif;
+}
+.ticket_rrr_3a{
+    height: 100%;
+    width: 35%;
+    float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.ticket_rrr_3b{
+    height: 100%;
+    width: 64%;
+    float: left;
+    color:rgb(124, 116, 116) ;
+}
+.no_ticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+.ticket_rrr_h3{
+    color: black;
+    margin-top: 10%;
+}
+.ticket_rrr_h4{
+    color: black;
+    margin-top: 10%;
+}
+.ticket_rrr_4{
+    height: 8%;
+    width: 100%;
+   margin-top: 1%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:rgb(124, 116, 116) ;
+   font-family: sans-serif;
+}

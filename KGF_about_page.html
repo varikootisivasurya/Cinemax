@@ -1,0 +1,1007 @@
+<html>
+    <head>
+        <link rel="Stylesheet" href="KGF_about.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <style>
+        body{
+            color: white;
+        }
+        
+        .parent{
+            height: 200;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: -25px;
+            
+        }
+        
+        .headerbar{
+            height: 100px;
+            width: 100%;
+            margin-bottom: 1%;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #008080;
+        }
+
+        .cinemaxlogo{
+            margin-top: 0.9%;
+            margin-left: 1.5%;
+        }
+
+        .options{
+            display: flex;
+            flex-wrap: wrap;
+            height: 100px;
+            width: 500px;
+            font-size: 22px;
+            font-weight: 900px;
+            font-family: sans-serif;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: 3%;
+            margin-top: 1%;
+        }
+
+        .options1{
+            font-size: 22px;
+            font-weight: 900px;
+            font-family: sans-serif; 
+        }
+
+        .home{
+            height: 50px;
+            color: white;
+        }
+
+        .home:hover{
+           border-bottom: 3px solid black;
+           font-size: 26px;
+        }
+
+        .movies{
+            color:white;
+            height: 50px;
+        }
+
+        .movies:hover{
+           border-bottom: 3px solid black;
+           font-size: 26px;
+        }
+
+        .actors{
+            color:white;
+            height: 50px;
+        }
+
+        .actors:hover{
+           border-bottom: 3px solid black;
+           font-size: 26px;
+        }
+
+        .sports{
+            color:white;
+            height: 50px;
+        }
+
+        .sports:hover{
+           border-bottom: 3px solid black;
+           font-size: 26px;
+        }
+
+        .account{
+            display: flex;
+            flex-wrap: wrap;
+            height: 60px;
+            width: 200px;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 900px;
+            margin-left: 92%;
+            margin-top: 1.5%;
+        }
+
+        .signup{
+            border: 2px solid bisque;
+            background-color: ghostwhite;
+            padding: 8px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 1px darkgray;
+            color: black;
+        }
+    
+        .signup:hover{
+            background-color: lightgreen;
+            transform: scale(1.08);
+        }
+    
+        .login{
+            border: 2px solid bisque;
+            background-color: ghostwhite;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 1px darkgray;
+            color: black;
+        }
+    
+        .login:hover{
+            background-color: skyblue;
+            transform: scale(1.08);
+        }
+    
+
+        .optheader{
+            width: 0px;
+            height: 410px;
+            transition: all 1s;
+            margin-top: 8%;
+            margin-left: -50%;
+         }
+
+        .options1{
+            display: none; 
+         }
+
+         .home1{
+            font-size: 21px;
+            text-align: center;
+            padding:10px;
+            color:white;
+            margin-top: -1%;
+            margin-left: -3%;
+         }
+
+         .movies1{
+            font-size: 21px;
+            text-align: center;
+            padding:10px;
+            color:white;
+            margin-top: -7.3%;
+            margin-left: 27%;
+         }
+
+         .actors1{
+            font-size: 20px;
+            text-align: center;
+            padding:10px;
+            color:white;
+            margin-top: -7.3%;
+            margin-left: 57%;
+         }
+
+         .sports1{
+            font-size: 20px;
+            text-align: center;
+            padding:10px;
+            color: white;
+            margin-left: 84%;
+            margin-top: -7.3%;
+         }
+
+         .close{
+            font-size: 22px;
+            text-align: center;
+            padding:10px;
+            color: white;
+            margin-left: 100%;
+            margin-top: -7.5%;
+         }
+
+         .home1:hover{
+            font-size: 24px;
+            font-weight: bolder;
+         }
+         .movies1:hover{
+            font-size: 24px;
+            font-weight: bolder;
+         }
+         .actors1:hover{
+            font-size: 24px;
+            font-weight: bolder;
+         }
+         .sports1:hover{
+            font-size: 24px;
+            font-weight: bolder;
+         }
+
+         .close:hover{
+            font-size: 24px;
+            font-weight: bolder;
+            color:red;
+         }
+
+
+         button{
+            height: 40px;
+            width: 70;
+            padding: 5px;
+            font-size: 22px;
+            font-weight: 900px ;
+            font-family: sans-serif;
+            border:2px solid black
+         }
+
+        .optbutton{
+            display: none;
+            margin-top: 1%;
+            margin-left: 5%;
+            border-radius: 10px;
+            background-color: ghostwhite;
+        }
+
+        .optbutton:hover{
+            background-color: aliceblue;
+        }
+
+        @media screen and ((min-width:370px) and (max-width:475px))
+{
+    .parent{
+        width: 370px;
+    }
+    .options{
+        display:none;
+    }
+    
+    .optbutton{
+        display: block;
+    }
+
+    .account{
+       display: none;
+    }
+
+    .posters{
+        height: 250px;
+        width: 190px;
+    }
+
+    .addvedio{
+        width: 300px;
+        height: 300px;
+    }
+
+}
+
+@media screen and ((min-width:425px) and (max-width:625px))
+{
+    .parent{
+        width: 470px;
+    }
+    .options{
+        display:none;
+    }
+    
+    .optbutton{
+        display: block;
+    }
+
+    .account{
+       display: none;
+    }
+
+    .optbutton{
+        margin-top: 5%;
+    }
+
+    .posters{
+        height: 300px;
+        width: 190px;
+    }
+
+    .blockbuster{
+        margin-top: 15%;
+    }
+
+    .slick-dots{
+        margin-left: 38%;
+    }
+
+    .parent2{
+        height: 300px;
+    }
+
+    .recommendedmovies{
+        margin-left: 15%;
+        margin-top: 25%;
+    }
+
+    .addvedio{
+        width: 350px;
+        height: 350px;
+        margin-left: 12%;
+        margin-top: -5%;
+    }
+}
+
+@media screen and ((min-width:624px) and (max-width:720px)){
+    .parent{
+        width: 700px;
+    }
+    
+    .options{
+        display:none;
+    }
+    
+    .optbutton{
+        display: block;
+    }
+    
+    .account{
+       display: none;
+    }
+
+    .posters{
+        height: 300px;
+        width: 160px;
+    }
+
+    .slick-slide {
+        padding:10px;
+        margin-right:80px;
+        margin-left:8px;
+    }
+
+    .slick-dots{
+        margin-left: 45%;
+    }
+
+    .parent2{
+        height: 300px;
+    }
+
+    .addvedio{
+        width: 400px;
+        height: 400px;
+        margin-left: 15%;
+        margin-top: -5%;
+    }
+
+    .recommendedmovies{
+        margin-top: 20%;
+        margin-left: 22%;
+    }
+}
+
+@media screen and ((min-width:720px) and (max-width:800px)){
+    .parent{
+        width: 700px;
+    }
+    
+    .account{
+       display: none;
+    }
+
+    .posters{
+        height: 320px;
+        width: 200px;
+    }
+
+    .slick-slide {
+        padding:10px;
+        margin-right:80px;
+        margin-left:8px;
+    }
+
+    .blockbuster{
+        margin-top: 5%;
+    }
+
+    .slick-dots{
+
+        margin-left: 45%;
+    }
+
+    .parent2{
+        height: 350px;
+    }
+
+    .addvedio{
+        width: 450px;
+        height: 450px;
+        margin-left: 17%;
+        margin-top: -5%;
+    }
+
+    .recommendedmovies{
+        margin-top: 15%;
+    }
+}
+
+@media screen and ((min-width:800px) and (max-width:900px)){
+    .parent{
+        width: 1200px;
+    }
+    
+    .options{
+        width: 400px;
+    }
+    .account{
+        margin-left: 50%;
+    }
+
+    .posters{
+        height: 370px;
+        width: 230px;
+    }
+
+    .slick-slide {
+        padding:10px;
+        margin-right:80px;
+        margin-left:8px;
+    }
+
+    .slick-dots{
+        margin-top: -1%;
+        margin-left: 45%;
+    }
+
+    .parent2{
+        height: 380px;
+    }
+
+    .addvedio{
+        width: 430px;
+        height: 430px;
+        margin-left: 18%;
+        margin-top: -5%;
+    }
+
+    .recommendedmovies{
+        margin-top: 15%;
+        margin-left: 12%;
+    }
+}
+
+@media screen and ((min-width:900px) and (max-width:1000px)){
+    .parent{
+        width: 1200px;
+    }
+    
+    .options{
+        width: 400px;
+    }
+    .account{
+        margin-left: 60%;
+    }
+
+    .posters{
+        height: 450px;
+        width: 280px;
+    }
+
+    .recommendedmovies{
+        margin-top: 15%;
+        margin-left: 13%;
+    }
+
+    .slick-slide {
+        padding:10px;
+        margin-right:80px;
+        margin-left:8px;
+    }
+
+    .slick-dots{
+        margin-top: -1%;
+        margin-left: 47%;
+    }
+
+    .parent2{
+        height: 430px;
+    }
+
+    .addvedio{
+        height: 450px;
+        width: 450px;
+        margin-left: 23%;
+        margin-top: -5%;
+    }
+}
+
+@media screen and ((min-width:1000px) and (max-width:1200px)){
+    .parent{
+        width: 1200px;
+    }
+    
+    .options{
+        width: 400px;
+    }
+    .account{
+        margin-left: 65%;
+    }
+
+    .posters{
+        height: 420px;
+        width: 260px;
+    }
+
+    .slick-slide {
+        padding:10px;
+        margin-right:80px;
+        margin-left:0px;
+    }
+
+    .slick-dots{
+        margin-top: -1%;
+        margin-left: 42%;
+    }
+
+    .parent2{
+        height: 450px;
+    }
+
+    .addvedio{
+        height: 480px;
+        width: 480px;
+        margin-left: 28%;
+        margin-top: -5%;
+    }
+
+    .recommendedmovies{
+        margin-top: 12%;
+        margin-left: 13%;
+    }
+}
+
+@media screen and ((min-width:1200px) and (max-width:1300px)){
+    .parent{
+        width: 1300px;
+    }
+    .account{
+        margin-left: 73%;
+    }
+
+    .posters{
+        height: 400px;
+        width: 280px;
+    }
+
+    .slick-slide {
+        padding:10px;
+        margin-right:80px;
+        margin-left:0px;
+    }
+
+    .slick-dots{
+        margin-top: 2%;
+        margin-left: 45%;
+    }
+
+    .parent2{
+        height: 460px;
+    }
+
+    .addvedio{
+        height: 480px;
+        width: 480px;
+        margin-left: 28%;
+        margin-top: -5%;
+    }
+    .recommendedmovies{
+        margin-top: 12%;
+        margin-left: 13%;
+    }
+ }
+
+ @media screen and ((min-width:1300px) and (max-width:1400px)){
+    .parent{
+        width: 1400px;
+    }
+    .account{
+        margin-left: 78%;
+    }
+    
+    .parent2{
+        height: 500px;
+    }
+
+    .posters{
+        height: 430px;
+        width: 290px;
+    }
+
+    .parent2{
+        height: 430px;
+    }
+
+    .addvedio{
+        height: 500px;
+        width: 500px;
+        margin-left: 28%;
+        margin-top: -5%;
+    }
+    .recommendedmovies{
+        margin-top: 12%;
+        margin-left: 10%;
+    }
+ }
+
+ @media screen and ((min-width:1400px) and (max-width:1500px)){
+    .parent{
+        width: 1500px;
+    }
+    .account{
+        margin-left: 80%;
+    }
+
+    .posters{
+        height: 450px;
+        width: 330px;
+    }
+
+    .slick-slide {
+        padding:10px;
+        margin-right:80px;
+        margin-left:8px;
+    }
+
+    .parent2{
+        height: 460px;
+    }
+
+    .addvedio{
+        height: 500px;
+        width: 500px;
+        margin-left: 32%;
+        margin-top: -5%;
+    }
+
+    .recommendedmovies{
+        margin-top: 12%;
+        margin-left: 6%;
+    }
+
+ }
+
+ @media screen and ((min-width:1500px) and (max-width:1530px)){
+    .parent{
+        width: 1500px;
+    }
+    .account{
+        margin-left: 85%;
+    }
+
+    .addvedio{
+        height: 500px;
+        width: 500px;
+        margin-left: 35%;
+        margin-top: -5%;
+    }
+ }
+
+ a{
+    text-decoration: none;
+    color: black;
+ }
+
+
+    </style>
+
+
+
+</head>
+    <body>
+
+        <div class="parent">
+
+            <div class="headerbar">
+            
+                <img class="cinemaxlogo" src="./CineMaxLogo.png" height="80px" width="100px">
+            
+                <div class="options">
+            
+                    <a href="Home_Page.html"><div class="home">Home</div></a>
+                    <a href="Present_Movies_List.html"><div class="movies">Movies</div></a>
+                    <a href="Actors_Page.html"><div class="actors">Actors</div></a>
+                    <a href="sports.html"><div class="sports">Sports</div></a>
+            
+                </div>
+            
+                <button class="optbutton" onclick="fun()">Options</button>
+            
+                <div class="optheader">
+            
+                    <div class="options1">
+                    
+                    <a href="Home_Page.html"><div class="home1">Home</div></a>
+                    <a href="Present_Movies_List.html"><div class="movies1">Movies</div></a>
+                    <a href="Actors_Page.html"><div class="actors1">Actors</div></a>
+                    <a href="Sports.html"><div class="sports1">Sports</div></a>
+                    <div class="close" onclick="fun2()">Close</div>
+            
+                </div>
+            
+                </div>
+            
+                <div class="account">
+            
+                    <a href="final.html"><div class="signup">SignUp</div></a>
+                <a href="final.html"><div class="login">Login</div></a>
+            
+                </div>
+            
+            </div>
+            
+            </div>
+
+
+        <div class="trailer_parent_outer">
+            <div class="trailer_parent_inner">
+                <div class="rightside_div">
+                    <div class="right1">
+                        <div class="poster">
+                            <video src="./KGF/KGF Chapter 2 Trailer _ Telugu _Yash_Sanjay Dutt_Raveena_Srinidhi_Prashanth Neel_Vijay Kiragandur.mp4" autoplay controls height="400px" width="400px"></video>
+                        </div>
+                    </div>
+                    <div class="right_1">
+                        <div class="right_matter">
+                            <div class="tr_a"><h1>KGF 2</h1></div>
+                                    <div class="tr_b">
+                                       <i class="fa-solid fa-star"></i>
+                                       <div class="tr_c1">&nbsp;&nbsp;9.4/10 &nbsp;(1.8M votes)</div>
+                                       <div class="tr_rate">
+                                        <button class="tr_bt1">Rate
+                                        </button>
+                                      </div>
+                                    </div>
+                                    <div class="tr_c">&nbsp;&nbsp;2D,3D,IMAX 2D, IMAX 3D&nbsp;</div>
+                                    <div class="tr_c">&nbsp;&nbsp;Telugu,Hindi,Kannada,Malayalam,Tamil&nbsp;</div>
+                                    <div class="tr_c2">&nbsp;&nbsp;2h 48m • Action, Adventure, Thriller • UA • 14 Apr,2022</div>
+                                    <div class="tr_bt">
+                                        <a href="kgf.html"><button class="tr_bt2">BOOK
+                                        </button></a>
+                                      </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+
+
+        <div class="Movietxt">
+            <div class="aboutmovie"><b>About the Movie</b></div><br>
+            <div class="title">Vijendra Ingalgi, Son of Anand Ingalgi continues the story of KGF and Rocky in Chapter 2. Rocky survives the attack by Vanaram’s guards after killing Garuda.</div>
+        </div>
+    
+        <div class="line1"></div>
+    
+        <div class="cast"><b>Cast</b></div>
+    
+    
+        <div class="actorimages">
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/cast/yash1.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Yash</div>
+            <div class="txtprof">as Rocky</div>
+    
+        </div>
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/cast/sree.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Srinidhi</div>
+            <div class="txtprof">as Reena</div>
+    
+        </div>
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/cast/rav.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Raveena</div>
+            <div class="txtprof">Actor</div>
+    
+        </div>
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/cast/sanjay.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Sanjay Dutt</div>
+            <div class="txtprof">as Adheera</div>
+    
+        </div>
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/cast/roopaa.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Roopa</div>
+            <div class="txtprof">Actor</div>
+    
+        </div>
+    
+        </div>  
+    
+    
+        
+    
+    
+    
+        <div class="line1"></div>
+    
+        <div class="cast"><b>Crew</b></div>
+    
+    
+        <div class="actorimages">
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/crew/neel.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Prashanth</div>
+            <div class="txtprof">Director</div>
+    
+        </div>
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/crew/ravi.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Ravi Basrur</div>
+            <div class="txtprof">Musician</div>
+    
+        </div>
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/crew/vijay.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">V.Kirgandur</div>
+            <div class="txtprof">Producer</div>
+    
+        </div>
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/crew/bhuvan.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Bhuvan</div>
+            <div class="txtprof">Cinematographer</div>
+    
+        </div>
+    
+    
+        <div class="actor">
+    
+            <div class="imga">
+                <img class="actorimg" src="./KGF/crew/yogi.jpeg" height="150px" width="150px">
+            </div>
+    
+            <div class="txtname">Yogi G. Raj</div>
+            <div class="txtprof">Designer</div>
+    
+        </div>
+</div>
+
+
+<div class="back">
+    <div class="fist">
+        <div class="f1" >
+            <div class="so1"><i class="fa-solid fa-video"></i></i></div>
+        </div>
+        <div class="f1" ><b>List your Show</b></div>
+        <div class="f1" ><p class="para">Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow</p></div>
+        <button50 class="clickit">Contact_today!</button50>
+    </div>
+    <div class="second">
+
+        <div class="PZ1"></div>
+        <div class="PZ2"></div>
+        <div class="PZ3"></div>
+    </div>
+    <div class="third">
+        <div class="info">
+            <p class="para"><b>MOVIES NOW SHOWING IN KAKINADA</b><br><br>
+            Deadpool & Wolverine | Kalki 2898 AD | Tiger Narabali | Crime Reel | Pekamedalu | Bad Newz | Darling | Twisters | Despicable Me 4 | Longlegs<br><br>
+            <b>UPCOMING MOVIES IN KAKINADA</b><br><br>
+            Uparwala & Sons | Secret | Ishwar Kya Che? | Mafia (Kannada) | Sanketh | Vinnudan | Case No. 15 (You Don't Know Me But I Know You) | Google Aai | Chor Chor | Pride<br><br>
+            <b>MOVIES BY GENRE</b><br><br>
+            Action Movies Thriller Movies | Comedy Movies | Drama Movies | Adventure Movies | Sci-Fi Movies | Crime Movies | Adaptation Movies | Mythological Movies | Supernatural Movies<br><br>
+            <b>MOVIES BY LANGUAGE</b><br><br>
+            Movies in English | Movies in Telugu | Movies in Hindi | Movies in Tamil | Movies in Nepali | Movies in Portuguese | Movies in English 7D | Movies in Sindhi | Movies in Tulu | Movies in Chattisgarhi<br><br>
+            <b>SPORTS EVENTS IN KAKINADA</b><br><br>
+            Running | Archery | Athletics | Badminton | Basketball | Baseball | Boat Race | Bowling | Boxing | Card Games<br><br>
+            <b>EVENTS IN TOP CITIES</b><br><br>
+            Events in Mumbai | Events in Delhi-NCR | Events in Chennai | Events in Bengaluru | Events in Hyderabad | Events in Pune | Events in Ahmedabad | Events in Kolkata | Events in Kochi<br><br>
+            <b>CINEMAS IN TOP CITIES</b><br><br>
+            Cinemas in Mumbai | Cinemas in Delhi-NCR | Cinemas in Chennai | Cinemas in Bengaluru | Cinemas in Hyderabad | Cinemas in Pune | Cinemas in Ahmedabad | Cinemas in Kolkata | Cinemas in Kochi<br><br>
+            <b>PLAYS IN TOP CITIES</b><br><br>
+            Plays in Mumbai | Plays in Delhi-NCR | Plays in Chennai | Plays in Bengaluru | Plays in Hyderabad | Plays in Pune | Plays in Ahmedabad | Plays in Kolkata | Plays in Kochi<br><br>
+            <b>ACTIVITIES IN TOP CITIES</b><br><br>
+            Activities in Mumbai | Activities in Delhi-NCR | Activities in Chennai | Activities in Bengaluru | Activities in Hyderabad | Activities in Pune | Activities in Ahmedabad | Activities in Kolkata | Activities in Kochi<br><br>
+            <b>MOVIES NOW SHOWING</b><br><br>
+            Bad Newz | Deadpool & Wolverine | Raayan | Kalki 2898 AD | Indian 2 | Twisters | Sarfira | Darling | Bharateeyudu 2 | Kill<br><br>
+            <b>COUNTRIES</b><br><br>
+            Indonesia | Singapore | UAE | Sri Lanka | West Indies<br><br>
+            <b>HELP</b><br><br>
+            About Us | Contact Us | Current Opening | Press Release | Press Coverage | Sitemap | FAQs | Terms and Conditions | Privacy Policy<br><br>
+            <b>BOOKMYSHOW EXCLUSIVES</b><br><br>
+            Lollapalooza India | Superstar | BookASmile | Corporate Vouchers | Gift Cards | List My Show | Offers | Stream | Trailers<br><br>
+            <b>IPL 2024</b><br><br>
+            Mumbai Indians | Rajasthan Royals | Kolkata Knight Riders | Lucknow Super Giants</p><br><br>
+        </div>
+    </div>
+    <div class="forth">
+        <div class="forth-logo">
+        </div>
+        <div class="so">
+            <div class="so1"><br><i class="fa-brands fa-facebook"></i></div>
+            <div class="so1"><br><i class="fa-brands fa-instagram"></i></div>
+            <div class="so1"><br><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="so1"><br><i class="fa-brands fa-twitter"></i></div>
+            <div class="so1"><br><i class="fa-brands fa-linkedin-in"></i></div>
+        </div>
+        <div class="copy"><p><br><br>Copyright 2024 © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.<br>
+            The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied.<br>
+            Unauthorized use is prohibited and punishable by law.</p></div>
+    </div>
+</div>
+
+<script>
+    function fun(){
+        var z=document.getElementsByClassName("optheader")[0];
+        z.style.display="block"; 
+        z.style.width="600px";
+     
+        var y=document.getElementsByClassName("options1")[0];
+        y.style.display="block";
+     }
+     
+     function fun2(){
+         var r=document.getElementsByClassName("optheader")[0];
+         r.style.width="0";
+     
+        var y=document.getElementsByClassName("options1")[0];
+        y.style.display="none";
+     }
+     
+</script>
+
+</body>
+</html>

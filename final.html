@@ -1,0 +1,103 @@
+<html>
+<head>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <div class="page_1_parent">
+        <video class="bgvid" autoplay="autoplay" muted="muted" preload="auto" loop>
+            <source src="./movie.mp4" type="video/webm">
+        </video>
+        <div class="container">
+            <div class="form-container sign-up-container">
+                <form id="signUpForm">
+                    <h1>Create Account</h1>
+                    <input type="text" id="signUpName" placeholder="Name" />
+                    <input type="email" id="signUpEmail" placeholder="Email" />
+                    <input type="password" id="signUpPassword" placeholder="Password" />
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+            <div class="form-container login-container">
+                <form id="loginForm">
+                    <h1>Log In</h1>
+                    <input type="email" id="loginEmail" placeholder="Email" />
+                    <input type="password" id="loginPassword" placeholder="Password" />
+                    <button type="submit">Log In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <div class="over">
+                            <h1 class="w">Welcome to CineMax!!!</h1>
+                            <div class="final_text">
+                                <h4></h4>
+                            </div>
+                            <button class="ghost" id="login">Log In</button>
+                        </div>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Welcome to CineMax</h1>
+                        <p></p>
+                        <button class="ghost" id="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('signUp').addEventListener('click', () => {
+            document.querySelector('.container').classList.add('right-panel-active');
+        });
+
+        document.getElementById('login').addEventListener('click', () => {
+            document.querySelector('.container').classList.remove('right-panel-active');
+        });
+
+        document.getElementById('signUpForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('signUpName').value;
+            const email = document.getElementById('signUpEmail').value;
+            const password = document.getElementById('signUpPassword').value;
+
+            if (name.trim() === '' || email.trim() === '' || password.trim() === '') {
+                alert('Please fill in all fields.');
+            } else if (name.length < 3 || email.length < 5 || password.length < 6) {
+                alert('Please fill in your details properly.');
+            } else {
+                alert('Sign Up Successful!');
+                // Save the details in local storage
+                localStorage.setItem('userName', name);
+                localStorage.setItem('userEmail', email);
+                localStorage.setItem('userPassword', password);
+                
+                // Switch to login form and pre-fill with entered values
+                document.querySelector('.container').classList.remove('right-panel-active');
+                document.getElementById('loginEmail').value = email;
+                document.getElementById('loginPassword').value = password;
+            }
+        });
+
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+
+            // Get the details from local storage
+            const storedEmail = localStorage.getItem('userEmail');
+            const storedPassword = localStorage.getItem('userPassword');
+
+            if (email.trim() === '' || password.trim() === '') {
+                alert('Please fill in all fields.');
+            } else if (email === storedEmail && password === storedPassword) {
+                if (confirm('Login Successful!')){
+                    window.location.href="Home_Page.html";
+                }
+                // Here you can add code to handle the successful login
+            } else {
+                alert('Login Not Successful. Please check your email and password.');
+            }
+        });
+    </script>
+</body>
+</html>

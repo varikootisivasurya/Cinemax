@@ -1,0 +1,1272 @@
+<html>
+    <head>
+
+      <style>
+
+        #ticket {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            /* background-color: blanchedalmond; */
+            /* display: none; */
+        
+        }
+        .parents {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            height: 117svh;
+            background-color: white;
+            /* border: 2px solid gold; */
+        }
+        .parents1 {
+            width: 1250px;
+            height: 50px;
+            border: 1px solid #EEEEEE;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .select {
+            width: 50px;
+        }
+        
+        .parent2 {
+            width: 1250px;
+            height: 40px;
+            border: 1px solid #EEEEEE;
+        }
+        
+        .parent3 {
+            width: 1250px;
+            height: 50px;
+            border: 1px solid #EEEEEE;
+        
+        }
+        
+        .A {
+            width: 200px;
+            height: 50px;
+            /* border:2px solid purple; */
+            float: left;
+        }
+        
+        .q {
+            width: 150px;
+            height: 40px;
+            /* border:2px solid purple; */
+            float: left;
+        
+        }
+        
+        .A1 {
+            width: 700px;
+            height: 50px;
+             /* border:1px solid goldenrod;  */
+            float: left;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: -5%;
+            
+        }
+        .square {
+            width: 20px;
+            height:20px;
+            border: 1.5px solid rgb(50, 180, 50);
+            border-radius: 3px;
+            text-align: center;
+        }
+        .gold1 {
+            width: 480px;
+            height: 250px;
+            /* background-color:palegreen; */
+            float: left;
+        }
+        
+        .line1 {
+            width: 90px;
+            height: 250px;
+            /* background-color: brown; */
+            float: left;
+        }
+        
+        .line2 {
+            width: 302px;
+            height: 250px;
+            float: left;
+            
+            gap: 20px;
+        }
+        
+        .gold2 {
+            width: 1000px;
+            height: 250px;
+            /* background-color: aqua;  */
+            float: left;
+        }
+        
+        .duplex1 {
+            width: 395px;
+            height: 250px;
+            /* background-color:palegreen; */
+            display: flex;
+            float: left;
+        }
+        .ticket1{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .line3 {
+            width: 90px;
+            height: 250px;
+            /* background-color: brown; */
+            float: left;
+        }
+        
+        .line4 {
+            width: 302px;
+            height: 250px;
+            /* background-color:gold; */
+            float: left;
+        
+        }
+        
+        .duplex2 {
+            width: 820px;
+            height: 250px;
+            /* background-color: aqua; */
+            display: flex;
+            float: left;
+            flex-direction: column;
+            
+        }
+        
+        .parent4 {
+            width: 1250px;
+            height: 50px;
+            border: 1px solid #EEEEEE;
+        }
+        
+        .parent5 {
+            width: 1250px;
+            height: 250px;
+            border: 1px solid #EEEEEE;
+            display: flex;
+            /* gap: 10px; */
+        }
+        
+        .parent6 {
+            width: 1250px;
+            height: 250px;
+            border: 1px solid #EEEEEE;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .parent7 {
+            width: 1250px;
+            height: 50px;
+            border: 1px solid #EEEEEE;
+        }
+        
+        .parent8 {
+            width: 1250px;
+            height: 50px;
+            border: 1px solid #EEEEEE;
+        }
+        
+        .q {
+            width: 200px;
+            height: 50px;
+            border: 1px solid #EEEEEE;
+            float: left;
+        }
+        
+        .q1 {
+            width: 700px;
+            height: 50px;
+            /* border:2px solid goldenrod; */
+            float: left;
+            justify-content: space-around;
+            align-items: center;
+            margin-left: -5%;
+             gap: 10px; 
+            
+            /* border:1px solid goldenrod; */
+        
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .parent9 {
+            width: 1250px;
+            height: 90px;
+            /* border: 1px solid black; */
+        }
+        
+        .platinum,
+        .pla1 {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 900px;
+            font-family: sans-serif;
+            color: gray;
+            margin-top: 10PX;
+            margin-right: 20%;
+        
+        }
+        
+        .number2 {
+            width: 30px;
+            height: 20px;
+            background-color: rgb(50, 180, 50);
+            border: 2px solid rgb(50, 180, 50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .number3 {
+            width: 30px;
+            height: 20px;
+            background-color: rgb(50, 180, 50);
+            border: 2px solid rgb(50, 180, 50);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .font {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+            font-size: 18px;
+            margin-right: 110px;
+        }
+        
+        .letters,
+        .letter {
+            width: 20px;
+            height: 30px;
+            /* border:2px solid green; */
+            margin-top: 5px;
+            margin-left: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30px;
+        
+        
+        }
+        
+        .yellow1 {
+            height: 25px;
+            width: 300px;
+            /* background-color: blue; 
+        border:2px solid black;   */
+            display: flex;
+            flex-direction: row;
+            /* justify-content:space-around; */
+            gap: 10px;
+        
+        
+        
+        }
+        
+        .yellow2,
+        .yellow3,
+        .yellow4,
+        .yellow5,
+        .yellow6 {
+            height: 25px;
+            width: 300px;
+            /* background-color: blue; 
+        border:2px solid black;  */
+            display: flex;
+            margin-top: 10px;
+            /* justify-content:space-around; */
+            gap: 10px;
+        }
+        
+        .yellow7 {
+            height: 20px;
+            width: 300px;
+            /* background-color: blue; 
+        border:2px solid black;  */
+            display: flex;
+            margin-top: 10px;
+            /* justify-content:space-around; */
+            gap: 10px;
+        }
+        
+        .seat1 {
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid rgb(50, 180, 50);
+            margin-top: 7px;
+            color: rgb(50, 180, 50);
+            display: flex;
+            justify-content: space-evenly;
+             align-items: center; 
+            border-radius: 3px;
+            gap: 10px;
+        }
+        .booked{
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid rgb(214, 211, 211);
+            margin-top: 7px;
+            background-color: rgb(214, 211, 211);
+            color: white;
+            display: flex;
+             justify-content: space-evenly; 
+            align-items: center;
+            border-radius: 3px;
+        }
+        .booking1,
+        .booking2,
+        .booking3,
+        .booking4,
+        .booking5,
+        .booking6,
+        .booking7 {
+            height: 25px;
+            width: 300px;
+            /* background-color: blue; 
+        border:2px solid black;    */
+            display: flex;
+            flex-direction: row;
+            /* justify-content:space-around; */
+            gap: 10px;
+            margin-top: 8px;
+        
+        
+        
+        }
+        
+        .g1,
+        .g2,
+        .g3,
+        .g4,
+        .g5,
+        .g6,
+        .g7,
+        .g8 {
+            height: 30px;
+            width: 700px;
+            /* background-color: blue;  */
+            /* border:2px solid black;  */
+            /* justify-content: space-between; */
+            display: flex;
+            flex-direction: row;
+            margin-top: 5px;
+            gap: 10px;
+        
+        
+        
+        
+            /* justify-content:space-around; */
+        
+        }
+        
+        .s1 {
+            height: 30px;
+            width: 700px;
+            /* background-color: blue;   */
+            /* border:2px solid black;  */
+            /* justify-content: space-between; */
+            /* display: flex;
+        flex-direction: row; */
+            margin-top: 5px;
+            display: flex;
+            float: left;
+            gap: 10px;
+        
+        
+        
+        
+        
+        }
+        
+        .s2,
+        .s3,
+        .s4,
+        .s5,
+        .s6,
+        .s7,
+        .s8 {
+            height: 30px;
+            width: 700px;
+            /* background-color: pink;   */
+            /* border:2px solid black;  */
+            /* justify-content: space-between; */
+            /* display: flex;
+        flex-direction: row; */
+            margin-top: 5px;
+            display: flex;
+            float: left;
+            gap: 10px;
+        
+        }
+        
+        .styling {
+            display: flex;
+            /* justify-content: center;
+        align-items: center; */
+            margin-top: 15px;
+            font-size: 20px;
+            margin-left: 35px;
+        }
+        
+        .exe {
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 900px;
+            font-family: sans-serif;
+            color: gray;
+            margin-top: 15PX;
+            margin-right: 20%;
+            text-align: center;
+        }
+        
+        .seat1:hover {
+            background-color:rgb(50, 180, 50);
+            color: white;
+        
+        }
+        
+        .square:hover {
+            background-color: rgb(50, 180, 50);
+            color: white;
+        }
+        
+        .select {
+            width: 360px;
+            height: 50px;
+            /* border:2px solid black; */
+            display: flex;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .available {
+            width: 200px;
+            height: 50px;
+            /* border:2px solid gold;  */
+            display: flex;
+            float: left;
+        }
+        
+        .solid {
+            width: 150px;
+            height: 50px;
+             /* border: 2px solid black;  */
+            display: flex;
+            float: left;
+            margin-left: -5%;
+            
+        }
+        
+        .set1 {
+            width: 200;
+            height: 50px;
+            /* border:2px solid black; */
+            display: flex;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 250px;
+            font-size: 24px;
+        }
+        
+        .set2 {
+        
+            width: 200;
+            height: 50px;
+            /* border:2px solid black; */
+            display: flex;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .set3 {
+            width: 20px;
+            height: 20px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+        
+        }
+        
+        .av1 {
+            width: 100px;
+            height: 50px;
+            /* border:2px solid pink;   */
+            display: flex;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        
+        
+        
+        
+        }
+        
+        .av2 {
+            width: 100px;
+            height: 50px;
+            /* border:2px solid green;   */
+            display: flex;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        
+        
+        
+        
+        
+        }
+        .squ{
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid rgb(50, 180, 50);
+            border-radius: 3px;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .av3 {
+            width: 20px;
+            height: 20px;
+            border: 2px solid black;
+            display: flex;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 70px;
+            background-color: gray;
+        
+        }
+        
+        .so1 {
+            width: 80px;
+            height: 50px;
+            /* border: 2px solid yellow; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+        
+        .so2 {
+            width: 80px;
+            height: 50px;
+            /* border: 2px solid pink; */
+        
+        }
+        
+        .so3 {
+            width: 20px;
+            height: 20px;
+            border: 2px solid black;
+            display: flex;
+            float: left;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 80px;
+            margin-top: 13px;
+        
+        }
+        
+        #paybill {
+            height: 80px;
+            width: 100%;
+            background-color: whitesmoke;
+            position: absolute;
+            top:1200px;
+            display: none;
+        }
+        
+        .paymentbutton {
+            height: 40px;
+            width: 400px;
+            background-color: green;
+            color: white;
+            margin-top: 20px;
+            margin-left: 700px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        
+        
+        }
+        
+        .parent0 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 1250px;
+            height: 150px;
+            justify-content: center;
+            background-color: green;
+            margin-left: 10.1%;
+        }
+        .green{
+            background-color: rgb(50, 180, 50);
+            width: 20px;
+            height:20px;
+            border: 1.5px solid rgb(50, 180, 50);
+            border-radius: 3px;
+            text-align: center;
+        }
+        .pink{
+            background-color: rgb(50, 180, 50);
+            width: 20px;
+            height: 20px;
+            border: 1.5px solid rgb(50, 180, 50);
+            border-radius: 3px;
+            align-items: center;
+            text-align: center;
+        }
+        .childs {
+            width: 200px;
+            height: 150px;
+            background-color: pink;
+        }
+        
+        .childs1 {
+            width: 200px;
+            height: 20px;
+            border: 2px solid black;
+        }
+        
+        .childs2 {
+            width: 200px;
+            height: 20px;
+            border: 2px solid black;
+        }
+        
+        .childs3 {
+            width: 200px;
+            height: 20px;
+            border: 2px solid black;
+        }
+        
+        .childs4 {
+            width: 200px;
+            height: 20px;
+            border: 2px solid black;
+        }
+        
+        .divItem {
+            width: 30px;
+            height: 30px;
+            background-color: #ccc; 
+            border: 1px solid #333;
+            cursor: pointer;
+        }
+        
+        .selected {
+            background-color:red;
+        }
+
+        .hello{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+        }
+
+      </style>
+
+    </head>
+    <body>
+        <div class="hello">
+        <div id="ticket">
+            <div class="parents">
+                <div class="parent0">
+                    <div class="child">
+                        <label>Enter no of seats&nbsp;&nbsp;</label>
+                        <div class="childs1"> <input type="text" name="Enter no of seats" id="seatNumber" /></div>
+                        <!-- <div onclick="c1()" class="childs1">1</div>
+                        <div onclick="c2()" class="childs2">2</div>
+                        <div onclick="c3()" class="childs3">3</div>
+                        <div onclick="c4()" class="childs4">4</div>
+                        <div onclick="c5()" class="ch4">5</div> -->
+                    </div>
+                </div>
+                <div class="ticket1">
+                <div class="parents1">
+                    <div class="select">
+                        <div class="set1">
+                            Select
+                        </div>
+                        <div class="set2">
+                            <div class="set3"></div>
+                        </div>
+                    </div>
+                    <div class="available">
+                        <div class="av1">Available</div>
+                        <div class="av2">
+                            <div class="av3"></div>
+                        </div>
+                    </div>
+                    <div class="solid">
+                        <div class="so1">Solid</div>
+                        <div class="so2">
+                            <div class="so3"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parent2">
+                    <div class="platinum">RS. 300 PLATINUM </div>
+                </div>
+                <div class="parent3">
+                    <div class="A">
+                        <div class="font">A</div>
+                    </div>
+                    <div class="A1">
+                        <div class="square">1</div>
+                        <div class="square">2</div>
+                        <div class="green">3</div>
+                        <div class="square">4</div>
+                        <div class="square">5</div>
+                        <div class="square">6</div>
+                        <div class="square">7</div>
+                        <div class="square">9</div>
+                        <div class="square">10</div>
+                        <div class="green">11</div>
+                        <div class="square">12</div>
+                        <div class="square">13</div>
+                        <div class="square">14</div>
+                        <div class="green">15</div>
+                        <div class="square">16</div>
+                        <div class="square">17</div>
+                        <div class="square">18</div>
+                        <div class="green">19</div>
+                        <div class="square">20</div>
+                        
+                    </div>
+        
+                </div>
+                <div class="parent4">
+                    <div class="pla1">RS. 250 GOLD</div>
+                </div>
+                <div class="parent5">
+                    <div class="gold1">
+                        <div class="line1">
+        
+                            <div class="letter">B</div>
+                            <div class="letter">C</div>
+                            <div class="letter">D</div>
+                            <div class="letter">E</div>
+                            <div class="letter">F</div>
+                            <div class="letter">G</div>
+                            <div class="letter">H</div>
+                            <!-- <div class="letter"> I</div> -->
+                        </div>
+                        <div class="line2">
+                            <div class="booking1">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="booked">3</div>
+                                <div class="booked">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="booking2">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="booked">5</div>
+                                <div class="booked">6</div>
+                                <div class="booked">7</div>
+                            </div>
+                            <div class="booking3">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="booking4">
+                                <div class="seat1">1</div>
+                                <div class="booked">2</div>
+                                <div class="booked">3</div>
+                                <div class="booked">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="booking5">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="booking6">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="booked">6</div>
+                                <div class="booked">7</div>
+                            </div>
+                            <div class="booking7">
+                                <div class="booked">1</div>
+                                <div class="booked">2</div>
+                                <div class="booked">3</div>
+                                <div class="booked">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gold2">
+                        <div class="g1">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="booked">13</div>
+                            <div class="booked">14</div>
+                            <div class="booked">15</div>
+                            <div class="booked">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+        
+                        </div>
+                        <div class="g2">
+                            <div class="booked">8</div>
+                            <div class="booked">9</div>
+                            <div class="booked">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="g3">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="booked">16</div>
+                            <div class="booked">17</div>
+                            <div class="booked">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="g4">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="booked">15</div>
+                            <div class="booked">16</div>
+                            <div class="booked">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+        
+                        </div>
+                        <div class="g5">
+        
+                            <div class="seat1">8</div>
+                            <div class="booked">9</div>
+                            <div class="booked">10</div>
+                            <div class="booked">11</div>
+                            <div class="booked">12</div>
+                            <div class="booked">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+        
+                        </div>
+                        <div class="g6">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="booked">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="booked">21</div>
+                            <div class="booked">22</div>
+        
+                        </div>
+                        <div class="g7">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="booked">15</div>
+                            <div class="booked">16</div>
+                            <div class="booked">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+        
+                    </div>
+                </div>
+                <div class="parent6">
+                    <div class="duplex1">
+                        <div class="line3">
+                            <!-- <div class="letters"> H</div> -->
+                            <div class="letters">I</div>
+                            <div class="letters">J</div>
+                            <div class="letters">K</div>
+                            <div class="letters">L</div>
+                            <div class="letters">M</div>
+                            <div class="letters">N</div>
+                            <div class="letters">O</div>
+                        </div>
+                        <div class="line4">
+                            <div class="yellow1">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow2">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="booked">5</div>
+                                <div class="booked">6</div>
+                                <div class="booked">7</div>
+                            </div>
+                            <div class="yellow3">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow4">
+                                <div class="booked">1</div>
+                                <div class="booked">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow5">
+                                <div class="seat1">1</div>
+                                <div class="booked">2</div>
+                                <div class="booked">3</div>
+                                <div class="booked">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow6">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="seat1">4</div>
+                                <div class="seat1">5</div>
+                                <div class="seat1">6</div>
+                                <div class="seat1">7</div>
+                            </div>
+                            <div class="yellow7">
+                                <div class="seat1">1</div>
+                                <div class="seat1">2</div>
+                                <div class="seat1">3</div>
+                                <div class="booked">4</div>
+                                <div class="booked">5</div>
+                                <div class="booked">6</div>
+                                <div class="booked">7</div>
+                            </div>
+        
+                        </div>
+                    </div>
+                    <div class="duplex2">
+                        <div class="s1">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="booked">21</div>
+                            <div class="booked">22</div>
+                        </div>
+                        <div class="s2">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="booked">11</div>
+                            <div class="booked">12</div>
+                            <div class="booked">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="s3">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="booked">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="booked">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="s4">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="booked">15</div>
+                            <div class="booked">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="s5">
+                            <div class="booked">8</div>
+                            <div class="booked">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="s6">
+                            <div class="seat1">8</div>
+                            <div class="seat1">9</div>
+                            <div class="seat1">10</div>
+                            <div class="seat1">11</div>
+                            <div class="seat1">12</div>
+                            <div class="seat1">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="booked">17</div>
+                            <div class="booked">18</div>
+                            <div class="booked">19</div>
+                            <div class="booked">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <div class="s7">
+                            <div class="seat1">8</div>
+                            <div class="booked">9</div>
+                            <div class="booked">10</div>
+                            <div class="booked">11</div>
+                            <div class="booked">12</div>
+                            <div class="booked">13</div>
+                            <div class="seat1">14</div>
+                            <div class="seat1">15</div>
+                            <div class="seat1">16</div>
+                            <div class="seat1">17</div>
+                            <div class="seat1">18</div>
+                            <div class="seat1">19</div>
+                            <div class="seat1">20</div>
+                            <div class="seat1">21</div>
+                            <div class="seat1">22</div>
+                        </div>
+                        <!-- <div class="s8"></div> -->
+                    </div>
+                </div>
+                <div class="parent7">
+                    <div class="exe">295 SLIVER</div>
+                </div>
+                <div class="parent8">
+                    <div class="q">
+                        <div class="styling">p</div>
+                    </div>
+                    <div class="q1">
+                        <div class="squ">1</div>
+                        <div class="squ">2</div>
+                        <div class="squ">3</div>
+                        <div class="squ">4</div>
+                        <div class="pink">5</div>
+                        <div class="squ">6</div>
+                        <div class="squ">7</div>
+                        <div class="squ">8</div>
+                        <div class="pink">9</div>
+                        <div class="squ">10</div>
+                        <div class="pink">11</div>
+                        <div class="squ">12</div>
+                        <div class="squ">13</div>
+                        <div class="squ">14</div>
+                        <div class="pink">15</div>
+                        <div class="squ">16</div>
+                        <div class="squ">17</div>
+                        <div class="pink">18</div>
+                        <div class="squ">19</div>
+                        <div class="squ">20</div>
+                    </div>
+                </div>
+                <div class="parent9"></div>
+            </div>
+            </div>
+            <a href="#rrr_main">
+                <div id="paybill">
+                    <div class="paymentbutton" onclick="fun6()">Pay Rs.400</div>
+                </div></a>
+        
+        </div>
+        </div>
+
+
+        <script>
+            const seats = document.querySelectorAll('.seat1,.square');
+            const seatNumberInput = document.getElementById('seatNumber');
+            const paymentDiv = document.getElementById('paybill');
+            let selectedSeats = [];
+    
+            seats.forEach(seat => {
+                seat.addEventListener('click', () => selectSeat(seat));
+            });
+    
+            function selectSeat(seat) {
+                const maxSeats = parseInt(seatNumberInput.value, 10);
+                if (isNaN(maxSeats) || maxSeats <= 0) {
+                    alert('Please enter a valid number of seats.');
+                    return;
+                }
+    
+                if (selectedSeats.includes(seat)) {
+                    seat.classList.remove('selected');
+                    selectedSeats = selectedSeats.filter(s => s !== seat);
+                } else if (selectedSeats.length < maxSeats) {
+                    seat.classList.add('selected');
+                    selectedSeats.push(seat);
+                }
+    
+                if (selectedSeats.length === maxSeats) {
+                    paymentDiv.style.display = 'block';
+                    var x = parseInt(seatNumberInput.value);
+                    var y = x*145;
+                    console.log(y);
+                    document.getElementsByClassName('paymentbutton')[0].innerHTML="Pay Rs."+x*145;
+    
+                } else {
+                    paymentDiv.style.display = 'none';
+                }
+            }
+        </script>
+    </body>
+</html>
