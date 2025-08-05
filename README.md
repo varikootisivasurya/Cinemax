@@ -6,5 +6,6 @@
 - Developed using HTML, CSS, Bootstrap, JavaScript for the frontend
 
 ## 🌐 Live Website
-- 🔗 Live Website https://varikootisivasurya.github.io/Movie_project/index.html
+- 🔗 [Live Website – Cinemax](https://varikootisivasurya.github.io/Movie_project/index.html)
+
 
